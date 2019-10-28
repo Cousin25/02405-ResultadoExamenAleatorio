@@ -26,12 +26,10 @@ public class Main {
     public static final Random RND = new Random();
 
     public static void main(String[] args) {
-         boolean resultado;
-        
+        boolean resultado;
+
         resultado = RND.nextBoolean();
 
         System.out.printf("Aptitud satisfactoria.....: %b%n", resultado);
-
     }
-
 }
